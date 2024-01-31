@@ -26,8 +26,6 @@ std::optional<Loc> getEmptyCell(Board& board) {
     return std::nullopt;
 }
 
-int counter{0};
-
 std::optional<Board> solveBoard(Board board) {
     auto loc_ = getEmptyCell(board);
     if (!loc_.has_value()) {
