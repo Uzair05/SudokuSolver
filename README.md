@@ -1,6 +1,6 @@
 # Sudoku Solver
 
-This project aims to solve the Sudoku puzzle using fundamental AI techniques.
+This project aims to solve the Sudoku puzzle using iterative deepening search.
 The objective of this project was to showcase proficiency in utilizing the C++ STL.
 
 ## Rules
