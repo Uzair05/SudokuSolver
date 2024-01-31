@@ -9,7 +9,11 @@
 void printBoard(Board& board) {
     for (const auto& r : board) {
         for (const auto& c : r) {
-            std::cout << c << ", ";
+            if (c==0){
+                std::cout << '_' << ", ";
+            }else{
+                std::cout << c << ", ";
+            }
         }
         std::cout << "\n";
     }
