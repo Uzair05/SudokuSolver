@@ -11,7 +11,7 @@ genOptions.o: src/genOptions.cpp
 	g++ -c @flags $^
 
 
-.PHONY: clean wipe format
+.PHONY: clean wipe
 clean:
 	ls | grep -E ".*\.o$\" | xargs -I{} rm {}
 wipe: clean
